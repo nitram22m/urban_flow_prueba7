@@ -72,3 +72,13 @@ Los radares urbanos generan registros administrativos automáticos y las cámara
 
 ## Sprint actual
 Sprint 2: procesamiento de imágenes con OpenCV y extracción de patentes con Tesseract OCR.
+
+# Urban Flow - Sprint 3
+
+## Sprint actual: Sprint 3
+
+## Objetivo
+Profesionalizar la solución incorporando persistencia relacional (SQLAlchemy), control de versiones de datos (DVC) y búsqueda vectorial por similitud (ChromaDB + OpenCLIP).
+
+## Introducción y contexto
+El volumen de datos creció. Se migra de archivos CSV a una base de datos `transito` con ORM SQLAlchemy. Los binarios se gestionan con DVC. La búsqueda de vehículos por imagen se implementa con ChromaDB.

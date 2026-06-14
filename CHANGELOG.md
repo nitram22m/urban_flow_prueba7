@@ -119,3 +119,9 @@
 ### Added
 - Conclusión del Sprint 2 en data/Readme.md.
 - Análisis impacto datos inválidos 00:00 y 1932-01-01.
+
+## [Sprint 3] - Ejercicio 01
+### Added
+- Rama Sprint_3 creada desde Sprint_2.
+- Verificación de acceso a datasets previos.
+- README.md actualizado con contexto Sprint 3.
