@@ -8,12 +8,12 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 21,BHRP 770,1932-01-01,08:01,71.0,60,RUTA 9,R03,PAGADA,11.0,8.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/321ffb38656f7311_patente.jpg,BHRP770,1.0,True
 22,RFH 373,2020-10-15,09:02,121.0,80,AV LIBERTADOR,R01,IMPAGA,41.0,37.0,,,0.0,False
 24,X IIUME,2021-06-12,08:01,52.0,40,AV SIEMPRE VIVA,R03,IMPAGA,12.0,10.0,,,0.0,False
-26,HF 58 HXP,2022-11-20,14:01,62.0,40,RUTA 9,,APELADA,22.0,20.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/9a795bbf4e94d630.jpg,HFS8HXP,0.8571,True
+26,HF 58 HXP,2022-11-20,14:01,62.0,40,RUTA 9,,APELADA,22.0,20.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/9a795bbf4e94d630.jpg,HFS8HXP,1.0,True
 31,M43 1ZW,1932-01-01,14:01,123.0,60,RUTA 9,R03,PAGADA,63.0,60.0,,,0.0,False
 35,GE 1466,2020-11-22,08:02,67.0,40,AV LIBERTADOR,R03,ERROR,27.0,25.0,,,0.0,False
-36,J1S1,1932-01-01,18:01,85.0,40,AV LIBERTADOR,,APELADA,45.0,43.0,,,0.0,False
+36,J1S1,1932-01-01,18:01,85.0,40,AV LIBERTADOR,,APELADA,45.0,43.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/e82f13b4a2fe69f3_patente_1.jpg,JLSI,1.0,True
 40,VTII AHV,2023-04-30,09:03,71.0,60,AV LIBERTADOR,R03,APELADA,11.0,8.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/0e50ea14c4fc1353_patente.jpg,BTIIAHV,0.8571,True
-41,66 111 72,2022-02-26,08:02,109.0,60,AV LIBERTADOR,R02,PAGADA,49.0,46.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,B6G11172,0.8,True
+41,66 111 72,2022-02-26,08:02,109.0,60,AV LIBERTADOR,R02,PAGADA,49.0,46.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/7a1f9520c7ecd5b1_patente.jpg,B6G11172,0.9333,True
 44,GCP332,2024-01-26,14:02,106.0,40,AV LIBERTADOR,,IMPAGA,66.0,64.0,,,0.0,False
 47,W326 AVE,2020-05-28,00:00,70.0,60,RUTA 9,R01,IMPAGA,10.0,7.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/6c144e47161867c2_patente.jpg,W326AVE,1.0,True
 49,810 TCH,2022-03-03,09:04,156.0,80,AV LIBERTADOR,R02,ERROR,76.0,72.0,,,0.0,False
@@ -26,10 +26,10 @@ multa_id,patente,fecha,hora,velocidad_registrada,velocidad_maxima,ubicacion,rada
 59,FD 1475,2022-01-07,14:03,59.0,40,RUTA 9,R02,PAGADA,19.0,17.0,,,0.0,False
 60,FVIO UHP,1932-01-01,18:02,124.0,80,RUTA 9,R01,APELADA,44.0,40.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/28e26a4eb646c67a_patente.jpg,FVIOUHP,1.0,True
 61,VY 90 540,2022-11-08,00:00,99.0,80,RUTA 9,R01,ERROR,19.0,15.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/288a95c01e43cd14_patente_1.jpg,IVY90540,0.9333,True
-63,6NCE831,2022-12-14,08:03,81.0,60,AV LIBERTADOR,R02,ERROR,21.0,18.0,,,0.0,False
+63,6NCE831,2022-12-14,08:03,81.0,60,AV LIBERTADOR,R02,ERROR,21.0,18.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/0ee91c4938b6e7ee_patente.jpg,ONCEB31,0.8571,True
 64,M43 1ZW,1932-01-01,09:04,86.0,80,RUTA 9,R01,APELADA,6.0,2.0,,,0.0,False
 66,NTHG LFT,1932-01-01,08:04,152.0,80,RUTA 9,R03,IMPAGA,72.0,68.0,,,0.0,False
-68,HK 06 YMX,2020-11-11,14:03,76.0,40,AV SIEMPRE VIVA,,PAGADA,36.0,34.0,,,0.0,False
+68,HK 06 YMX,2020-11-11,14:03,76.0,40,AV SIEMPRE VIVA,,PAGADA,36.0,34.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/9a4fe6361597f264_patente.jpg,FHKOGYMX,0.9333,True
 69,VNK296 GP,2021-05-25,18:02,77.0,40,RUTA 9,R03,IMPAGA,37.0,35.0,/content/urban_flow_gem/urban_flow/data/raw/imgs/16789af24af158d8.jpg,VNK296GP,1.0,True
 71,RFH 373,2021-07-14,09:05,116.0,80,AV LIBERTADOR,R01,PAGADA,36.0,32.0,,,0.0,False
 72,HK 06 YMX,2021-05-30,14:03,104.0,60,AV SIEMPRE VIVA,R02,PAGADA,44.0,41.0,,,0.0,False

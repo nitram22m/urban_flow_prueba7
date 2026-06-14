@@ -61,3 +61,12 @@
 ### Added
 - Conclusión del Sprint 2 en data/Readme.md.
 - Análisis impacto datos inválidos 00:00 y 1932-01-01.
+
+## [Sprint 2] - Ejercicio 04
+### Added
+- Pipeline OCR: denoising, sharpening, cierre morfologico.
+- 7 variantes de preprocesamiento por imagen.
+- Seleccion por rango 4-10 chars alfanumericos.
+- Filtrado geometrico con margen asimetrico en completes.
+- Cruce LCS con ratio >= 0.80 (izq a der).
+- speeding_fines_image.csv en data/processed/.
