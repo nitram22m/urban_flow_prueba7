@@ -166,3 +166,10 @@
 - Consulta: radares con mayor volumen de infracciones.
 - Consulta: top 10 reincidentes en período dado.
 - Consulta: porcentaje de multas con evidencia visual.
+
+## [Sprint 3] - Ejercicio 08
+### Added
+- Modelo OpenCLIP ViT-B-32 cargado para embeddings.
+- Función obtener_embedding: vectoriza imagen con CLIP.
+- BD vectorial patente_vectorial creada en ChromaDB.
+- Colección poblada con vectores de imágenes de evidencia.
