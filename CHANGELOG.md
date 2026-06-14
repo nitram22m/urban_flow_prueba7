@@ -173,3 +173,9 @@
 - Función obtener_embedding: vectoriza imagen con CLIP.
 - BD vectorial patente_vectorial creada en ChromaDB.
 - Colección poblada con vectores de imágenes de evidencia.
+
+## [Sprint 3] - Ejercicio 09
+### Added
+- Función buscar_patente_imagen: búsqueda por similitud.
+- Retorna datos completos del vehículo desde la BD relacional.
+- Validación con 3 imágenes de muestra.
