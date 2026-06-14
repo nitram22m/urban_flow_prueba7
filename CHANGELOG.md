@@ -77,3 +77,10 @@
 - Métricas: multas pendientes totales y con imagen.
 - multas_imagen.jpg: distribución con/sin evidencia.
 - top10_patentes_imagen.jpg: top 10 con match.
+
+## [Sprint 2] - Ejercicio 01
+### Added
+- Rama Sprint_2 creada desde Sprint_1.
+- Estructura de directorios Sprint 2.
+- Descarga y descompresión de urban_flow_plates.zip.
+- README.md actualizado con objetivo Sprint 2.
