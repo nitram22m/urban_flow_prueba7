@@ -125,3 +125,9 @@
 - Rama Sprint_3 creada desde Sprint_2.
 - Verificación de acceso a datasets previos.
 - README.md actualizado con contexto Sprint 3.
+
+## [Sprint 3] - Ejercicio 02
+### Added
+- DVC inicializado con remote local /content/remote_dvc.
+- speeding_fines_image.csv migrado de Git a DVC.
+- Directorio imgs migrado de Git a DVC.
