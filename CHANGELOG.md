@@ -144,3 +144,11 @@
 ### Added
 - Función procesar_fila_csv: mapeo de dict a Multa.
 - Creación de jerarquía Vehiculo/Radar/Evidencia.
+
+## [Sprint 3] - Ejercicio 05
+### Added
+- VehiculoORM: tabla vehiculos con PK y relacion multas.
+- RadarORM: tabla radares con PK y relacion multas.
+- EvidenciaORM: tabla evidencias con FK a multa.
+- MultaORM: tabla multas con FK a vehiculo y radar.
+- __repr__ en todos los modelos ORM.
