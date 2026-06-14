@@ -131,3 +131,11 @@
 - DVC inicializado con remote local /content/remote_dvc.
 - speeding_fines_image.csv migrado de Git a DVC.
 - Directorio imgs migrado de Git a DVC.
+
+## [Sprint 3] - Ejercicio 03
+### Added
+- Clase Vehiculo con atributo patente y lista multas.
+- Clase Radar con atributo radar_id y ubicacion.
+- Clase Evidencia con imagen, patente_imagen y ratio.
+- Clase Multa vinculando Vehiculo, Radar y Evidencia.
+- Método __repr__ en todas las clases.
