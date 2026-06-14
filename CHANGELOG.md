@@ -158,3 +158,11 @@
 - BD transito.db creada con SQLAlchemy.
 - Tablas generadas automáticamente.
 - Datos migrados desde speeding_fines_image.csv.
+
+## [Sprint 3] - Ejercicio 07
+### Added
+- Consulta: top 10 patentes con más multas.
+- Consulta: top 10 multas sin evidencia asc por fecha.
+- Consulta: radares con mayor volumen de infracciones.
+- Consulta: top 10 reincidentes en período dado.
+- Consulta: porcentaje de multas con evidencia visual.
