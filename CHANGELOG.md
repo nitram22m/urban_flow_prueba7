@@ -56,3 +56,8 @@
 - Métricas: multas pendientes totales y con imagen.
 - multas_imagen.jpg: distribución con/sin evidencia.
 - top10_patentes_imagen.jpg: top 10 con match.
+
+## [Sprint 2] - Ejercicio 06
+### Added
+- Conclusión del Sprint 2 en data/Readme.md.
+- Análisis impacto datos inválidos 00:00 y 1932-01-01.
