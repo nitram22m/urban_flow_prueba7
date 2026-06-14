@@ -139,3 +139,8 @@
 - Clase Evidencia con imagen, patente_imagen y ratio.
 - Clase Multa vinculando Vehiculo, Radar y Evidencia.
 - Método __repr__ en todas las clases.
+
+## [Sprint 3] - Ejercicio 04
+### Added
+- Función procesar_fila_csv: mapeo de dict a Multa.
+- Creación de jerarquía Vehiculo/Radar/Evidencia.
