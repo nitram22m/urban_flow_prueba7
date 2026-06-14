@@ -152,3 +152,9 @@
 - EvidenciaORM: tabla evidencias con FK a multa.
 - MultaORM: tabla multas con FK a vehiculo y radar.
 - __repr__ en todos los modelos ORM.
+
+## [Sprint 3] - Ejercicio 06
+### Added
+- BD transito.db creada con SQLAlchemy.
+- Tablas generadas automáticamente.
+- Datos migrados desde speeding_fines_image.csv.
