@@ -122,3 +122,35 @@ facilita iteraciones futuras: ajustando parámetros de
 recorte, umbral de match o incorporando modelos OCR
 especializados se puede mejorar la cobertura de forma
 incremental.
+
+## Conclusión - Sprint 3
+
+### Integración de persistencia relacional
+En este sprint migramos de archivos CSV a una base de datos
+relacional SQLite gestionada con el ORM SQLAlchemy. El modelo
+contempla cuatro entidades: Vehiculo, Radar, Multa y Evidencia,
+con relaciones 1:N y 1:0..1 según el dominio del problema.
+Esto permite consultas estructuradas eficientes y garantiza
+integridad referencial que los CSV no podían ofrecer.
+
+### Control de versiones de datos con DVC
+Los archivos binarios (imágenes y CSV pesados) se migraron
+de Git a DVC apuntando a un remote local. Esta separación
+es fundamental: Git gestiona el código y los metadatos
+(.dvc), mientras DVC gestiona los datos. En producción
+el remote sería S3 o GCS, pero el flujo es idéntico.
+
+### Búsqueda vectorial con ChromaDB y OpenCLIP
+Se implementó un pipeline de búsqueda por similitud visual:
+OpenCLIP transforma cada imagen en un vector de 512 dimensiones
+y ChromaDB permite consultas por distancia coseno. Esto
+habilita identificar un vehículo a partir de una foto sin
+depender de OCR, siendo más robusto ante imágenes de baja
+calidad o patentes dañadas.
+
+### Limitaciones y trabajo futuro
+El dataset de imágenes con evidencia es reducido (14 matches).
+Una colección vectorial mayor mejoraría la precisión de la
+búsqueda. También sería valioso integrar ambas bases de datos
+para actualizar automáticamente la BD relacional cuando se
+encuentra un match vectorial nuevo.

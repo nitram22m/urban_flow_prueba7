@@ -179,3 +179,7 @@
 - Función buscar_patente_imagen: búsqueda por similitud.
 - Retorna datos completos del vehículo desde la BD relacional.
 - Validación con 3 imágenes de muestra.
+
+## [Sprint 3] - Ejercicio 10
+### Added
+- Conclusión Sprint 3 en data/Readme.md.
